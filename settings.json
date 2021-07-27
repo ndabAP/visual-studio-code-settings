@@ -1,0 +1,50 @@
+{
+    "workbench.colorTheme": "Default Dark+",
+    "workbench.startupEditor": "none",
+    "git.confirmSync": false,
+    "git.autofetch": true,
+    "editor.minimap.enabled": false,
+    "[jsonc]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "[json]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "redhat.telemetry.enabled": false,
+    "vs-kubernetes": {
+        "vscode-kubernetes.helm-path.linux": "/home/jclaus/.vs-kubernetes/tools/helm/linux-amd64/helm",
+        "vscode-kubernetes.kubectl-path.linux": "/home/jclaus/.vs-kubernetes/tools/kubectl/kubectl",
+        "vscode-kubernetes.minikube-path.linux": "/home/jclaus/.vs-kubernetes/tools/minikube/linux-amd64/minikube"
+    },
+    "editor.rulers": [
+        80,
+        120
+    ],
+    "workbench.editor.highlightModifiedTabs": true,
+    "editor.formatOnSave": true,
+    "editor.formatOnPaste": true,
+    "window.title": "${rootName}${separator}${activeEditorMedium}",
+    "files.trimTrailingWhitespace": true,
+    "explorer.autoReveal": true,
+    "[typescript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "docker.showStartPage": false,
+    "[yaml]": {
+        "editor.defaultFormatter": "redhat.vscode-yaml"
+    },
+    "git.suggestSmartCommit": false,
+    "window.zoomLevel": 3,
+    "go.lintOnSave": "workspace",
+    "go.vetOnSave": "workspace",
+    "go.testFlags": [
+        "-v"
+    ],
+    "go.autocompleteUnimportedPackages": true,
+    "go.useCodeSnippetsOnFunctionSuggest": true,
+    "[go]": {
+        "editor.codeActionsOnSave": {
+            "source.organizeImports": true
+        }
+    }
+}

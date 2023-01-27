@@ -11,11 +11,6 @@
         "editor.defaultFormatter": "vscode.json-language-features"
     },
     "redhat.telemetry.enabled": false,
-    "vs-kubernetes": {
-        "vscode-kubernetes.helm-path.linux": "/home/jclaus/.vs-kubernetes/tools/helm/linux-amd64/helm",
-        "vscode-kubernetes.kubectl-path.linux": "/home/jclaus/.vs-kubernetes/tools/kubectl/kubectl",
-        "vscode-kubernetes.minikube-path.linux": "/home/jclaus/.vs-kubernetes/tools/minikube/linux-amd64/minikube"
-    },
     "editor.rulers": [
         80,
         120
@@ -27,14 +22,12 @@
     "files.trimTrailingWhitespace": true,
     "explorer.autoReveal": true,
     "[typescript]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
+        "editor.defaultFormatter": "vscode.typescript-language-features"
     },
-    "docker.showStartPage": false,
     "[yaml]": {
         "editor.defaultFormatter": "redhat.vscode-yaml"
     },
     "git.suggestSmartCommit": false,
-    "window.zoomLevel": 3,
     "go.lintOnSave": "workspace",
     "go.vetOnSave": "workspace",
     "go.testFlags": [
@@ -46,5 +39,46 @@
         "editor.codeActionsOnSave": {
             "source.organizeImports": true
         }
-    }
+    },
+    "[javascript]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
+    "[vue]": {
+        "editor.formatOnSave": true,
+        "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+    },
+    "go.toolsManagement.autoUpdate": true,
+    "explorer.confirmDelete": false,
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "files.exclude": {
+        "**/.classpath": true,
+        "**/.project": true,
+        "**/.settings": true,
+        "**/.factorypath": true
+    },
+    "explorer.confirmDragAndDrop": false,
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    "terminal.integrated.enableMultiLinePasteWarning": false,
+    "[html]": {
+        "editor.defaultFormatter": "vscode.html-language-features"
+    },
+    "npm.keybindingsChangedWarningShown": true,
+    "window.zoomLevel": 3,
+    "go.inlayHints.parameterNames": true,
+    "go.inlayHints.rangeVariableTypes": true,
+    "go.inlayHints.constantValues": true,
+    "go.inlayHints.compositeLiteralTypes": true,
+    "go.inlayHints.compositeLiteralFields": true,
+    "go.inlayHints.assignVariableTypes": true,
+    "go.inlayHints.functionTypeParameters": true,
+    "[markdown]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "editor.unicodeHighlight.ambiguousCharacters": false,
+    "editor.largeFileOptimizations": false,
+    "editor.fontWeight": "normal",
+    "workbench.editor.enablePreview": false,
+    "diffEditor.ignoreTrimWhitespace": false,
+    "eslint.format.enable": true
 }
